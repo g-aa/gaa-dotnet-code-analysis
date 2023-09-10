@@ -6,7 +6,7 @@
 
 StyleCop.Analyzers, Microsoft.CodeAnalysis.NetAnalyzers.
 
-## [История изменения.](CHANGELOG.md)
+## [История изменения](CHANGELOG.md)
 
 ## Основная информация о пакете
 
