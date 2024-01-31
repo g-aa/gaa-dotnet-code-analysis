@@ -4,13 +4,13 @@
 
 ## Перечень технологий (зависимости)
 
-StyleCop.Analyzers, Microsoft.CodeAnalysis.NetAnalyzers.
+StyleCop.Analyzers, Microsoft.CodeAnalysis.
 
 ## [История изменения](CHANGELOG.md)
 
 ## Основная информация о пакете
 
-Библиотека использует [Microsoft.CodeAnalysis.NetAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers)
+Библиотека использует [Microsoft.CodeAnalysis](https://www.nuget.org/packages/Microsoft.CodeAnalysis)
 
 Общая информация может быть найдена тут [Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview)
 
