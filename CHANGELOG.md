@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 
 ## [Unreleased]
 
-## [8.1.0] - 2024-02-07
+## [8.1.0] - 2024-02-18
 
 - Обновление конфигурации.
 
