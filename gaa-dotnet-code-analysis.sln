@@ -7,7 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{78CB6E8D-F
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
-		.version = .version
 		CHANGELOG.md = CHANGELOG.md
 		gaa-dotnet-code-analysis.snk = gaa-dotnet-code-analysis.snk
 		icon.png = icon.png
