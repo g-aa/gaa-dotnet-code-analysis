@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <PackageId>Gaa.DotNet.CodeAnalysis</PackageId>
+    <Description>Default ruleset for personal projects.</Description>
+    <NeutralLanguage>ru-RU</NeutralLanguage>
+    <Product>CodeAnalysis</Product>
+    <PackageTags>GAA;Net;CodeAnalysis;</PackageTags>
+    <PackageType>Dependency</PackageType>
+    <Title>GAA dotnet code analysis</Title>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Gaa.DotNet.CodeAnalysis.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SignAssembly>true</SignAssembly>
+    <PublicSign>true</PublicSign>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="4.9.2"/>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Gaa.DotNet.CodeAnalysis.props" Pack="true" PackagePath="\build"/>
+    <None Include="Gaa.DotNet.CodeAnalysis.ruleset" Pack="true" PackagePath="\"/>
+    <None Include="stylecop.json" Pack="true" PackagePath="\"/>
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\"/>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" Visible="true"/>
+  </ItemGroup>
+</Project>

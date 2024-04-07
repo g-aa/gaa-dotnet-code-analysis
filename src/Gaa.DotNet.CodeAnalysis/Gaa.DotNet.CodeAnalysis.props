@@ -6,6 +6,6 @@
     <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)..\Gaa.DotNet.CodeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <AdditionalFiles Include="$(MSBuildThisFileDirectory)..\stylecop.json" Link="stylecop.json" />
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)..\stylecop.json" Link="stylecop.json"/>
   </ItemGroup>
 </Project>

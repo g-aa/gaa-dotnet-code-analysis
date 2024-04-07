@@ -7,24 +7,34 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{78CB6E8D-F
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		.version = .version
 		CHANGELOG.md = CHANGELOG.md
-		gaa-dotnet-code-analysis.snk = gaa-dotnet-code-analysis.snk
 		icon.png = icon.png
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
+		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{83EE4041-E7F6-4096-9D40-797F54BACA44}"
-	ProjectSection(SolutionItems) = preProject
-		Gaa.DotNet.CodeAnalysis.nuspec = Gaa.DotNet.CodeAnalysis.nuspec
-		Gaa.DotNet.CodeAnalysis.props = Gaa.DotNet.CodeAnalysis.props
-		Gaa.DotNet.CodeAnalysis.ruleset = Gaa.DotNet.CodeAnalysis.ruleset
-		stylecop.json = stylecop.json
-	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gaa.DotNet.CodeAnalysis", "src\Gaa.DotNet.CodeAnalysis\Gaa.DotNet.CodeAnalysis.csproj", "{BD83CE6A-A40A-4EA3-A00E-2523F622388F}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD83CE6A-A40A-4EA3-A00E-2523F622388F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD83CE6A-A40A-4EA3-A00E-2523F622388F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD83CE6A-A40A-4EA3-A00E-2523F622388F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD83CE6A-A40A-4EA3-A00E-2523F622388F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD83CE6A-A40A-4EA3-A00E-2523F622388F} = {83EE4041-E7F6-4096-9D40-797F54BACA44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47EA194E-B034-4ED4-BDD3-041FB978904F}

@@ -12,11 +12,14 @@ StyleCop.Analyzers, Microsoft.CodeAnalysis.
 
 Библиотека использует [Microsoft.CodeAnalysis](https://www.nuget.org/packages/Microsoft.CodeAnalysis)
 
-Общая информация может быть найдена тут [Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview)
+Общая информация может быть найдена
+тут [Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview)
 
 ## Использование
 
-Для того чтобы анализатор кода работал корректно обновите ваш [.editorconfig](http://git.esphere.local/templates/projects/-/blob/master/content/solution/.editorconfig) теперь в нем должны содержаться так же параметры статических анализаторов. Пример:
+Для того чтобы анализатор кода работал корректно обновите
+ваш [.editorconfig](http://git.esphere.local/templates/projects/-/blob/master/content/solution/.editorconfig) теперь в
+нем должны содержаться так же параметры статических анализаторов. Пример:
 
 ```yaml
 # Microsoft .NET properties
@@ -36,7 +39,8 @@ dotnet_style_qualification_for_property=false:suggestion
 dotnet_diagnostic.CA1801.severity = none
 ```
 
-Прочие настройки уровней можно найти [тут](https://docs.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2019)
+Прочие настройки уровней можно
+найти [тут](https://docs.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2019)
 
 ## Этапы сборки проекта
 
