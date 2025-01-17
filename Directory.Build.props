@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Authors>Andrey G.</Authors>
     <Company>None</Company>
-    <Copyright>Copyright 2024.</Copyright>
+    <Copyright>Copyright GAA $([System.DateTimeOffset]::UtcNow.ToString(yyyy)).</Copyright>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/g-aa/gaa-dotnet-code-analysis</RepositoryUrl>
     <Build_Version Condition=" '$(Build_Version)' == '' ">$([System.IO.File]::ReadAllText($(MSBuildThisFileDirectory).version).Trim())</Build_Version>
