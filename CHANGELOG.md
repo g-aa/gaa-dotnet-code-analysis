@@ -6,11 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 
 ## [Unreleased]
 
-## [8.6.1] - 2025-01-17
+## [8.6.1] - 2025-01-19
 
 ### Изменено
 
-- Обновление `Directory.Build.props`.
+- Обновление файлов проекта.
 
 ## [8.6.0] - 2024-12-08
 
@@ -70,25 +70,25 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 
 ### Изменено
 
-- Обновление `StyleCop.Analyzers`, версия `1.2.0-beta.556`;
+- Обновление `StyleCop.Analyzers`, версия `1.2.0-beta.556`.
 - Замена `Microsoft.CodeAnalysis.NetAnalyzers` на `Microsoft.CodeAnalysis`.
 
 ## [7.0.0] - 2023-09-10
 
 ### Изменено
 
-- Версия проекта `7.0.0`;
+- Версия проекта `7.0.0`.
 - Обновление `Microsoft.CodeAnalysis.NetAnalyzers`, версия `7.0.4`.
 
 ## [6.0.0] - 2023-09-09
 
 ### Добавлено
 
-- Первоначальная версия проекта `6.0.0`;
-- Подключен `Microsoft.CodeAnalysis.NetAnalyzers`, версия `6.0.0`;
+- Первоначальная версия проекта `6.0.0`.
+- Подключен `Microsoft.CodeAnalysis.NetAnalyzers`, версия `6.0.0`.
 - Подключен `StyleCop.Analyzers`, версия `1.2.0-beta.435`.
 
-[Unreleased]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/release-v8.6.1...main
+[Unreleased]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/release-v8.6.1...master
 [8.6.1]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/release-v8.6.0...release-v8.6.1
 [8.6.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/release-v8.5.0...release-v8.6.0
 [8.5.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/release-v8.4.0...release-v8.5.0

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -9,29 +10,26 @@
     <PackageTags>GAA;Net;CodeAnalysis</PackageTags>
     <PackageType>Dependency</PackageType>
     <PackageProjectUrl>https://github.com/g-aa/gaa-dotnet-code-analysis</PackageProjectUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageVersion>$(Build_Version)</PackageVersion>
-    <PackageReleaseNotes>Refactoring the solution</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating the project</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <NoDefaultExcludes>true</NoDefaultExcludes>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis" Version="4.12.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556"/>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Gaa.DotNet.CodeAnalysis.props" Pack="true" PackagePath="\build" />
-    <None Include="Gaa.DotNet.CodeAnalysis.ruleset" Pack="true" PackagePath="\" />
-    <None Include="stylecop.json" Pack="true" PackagePath="\" />
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" Visible="true" />
+    <None Include="Gaa.DotNet.CodeAnalysis.props" Pack="true" PackagePath="/build" />
+    <None Include="Gaa.DotNet.CodeAnalysis.ruleset" Pack="true" PackagePath="/" />
+    <None Include="stylecop.json" Pack="true" PackagePath="/" />
+    <None Include="../../icon.png" Pack="true" PackagePath="/" />
+    <None Include="../../LICENSE.txt" Pack="true" PackagePath="/" Visible="true" />
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
   </ItemGroup>
 </Project>
