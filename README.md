@@ -23,7 +23,6 @@ StyleCop.Analyzers, Microsoft.CodeAnalysis.
 
 ```yaml
 # Microsoft .NET properties
-
 dotnet_style_predefined_type_for_member_access=true:suggestion
 dotnet_style_qualification_for_event=false:suggestion
 dotnet_style_qualification_for_field=false:suggestion
@@ -40,10 +39,4 @@ dotnet_diagnostic.CA1801.severity = none
 ```
 
 Прочие настройки уровней можно
-найти [тут](https://docs.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2019)
-
-## Этапы сборки проекта
-
-- Изменяем версию проекта в файде `Gaa.DotNet.CodeAnalysis.nuspec`;
-- Скачиваем и устанавливаем [nuget.exe](https://www.nuget.org/downloads);
-- Находясь в директории проекта вводим команду в терминал `nuget.exe pack`;
+найти [тут...](https://docs.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2019)
