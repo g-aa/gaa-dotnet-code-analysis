@@ -21,6 +21,7 @@ _TeamCity.*
 !.dockerignore
 !.editorconfig
 !.gitignore
+!.globalconfig
 !.tag.sh
 !.test.bat
 !.test.sh
