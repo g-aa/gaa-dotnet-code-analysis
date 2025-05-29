@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 
 ## [Unreleased]
 
+## [8.8.0] - 2025-05-29
+
+### Изменено
+
+- Обновление `Microsoft.CodeAnalysis`, версия `4.14.0`.
+
+### Исправлено
+
+- Замена файлов `*.globalconfig` на `*.ruleset`.
+
 ## [8.7.0] - 2025-02-11
 
 ### Изменено
@@ -94,7 +104,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 - Подключен `Microsoft.CodeAnalysis.NetAnalyzers`, версия `6.0.0`.
 - Подключен `StyleCop.Analyzers`, версия `1.2.0-beta.435`.
 
-[Unreleased]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.7.0...master
+[Unreleased]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.8.0...master
+[8.8.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.7.0...v8.8.0
 [8.7.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.6.1...v8.7.0
 [8.6.1]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.6.0...v8.6.1
 [8.6.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.5.0...v8.6.0
