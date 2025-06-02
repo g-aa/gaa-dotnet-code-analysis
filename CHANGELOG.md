@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 
 ## [Unreleased]
 
+## [8.8.1] - 2025-06-02
+
+### Исправлено
+
+- Обновление файлов проекта.
+
 ## [8.8.0] - 2025-05-29
 
 ### Изменено
@@ -104,7 +110,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 - Подключен `Microsoft.CodeAnalysis.NetAnalyzers`, версия `6.0.0`.
 - Подключен `StyleCop.Analyzers`, версия `1.2.0-beta.435`.
 
-[Unreleased]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.8.0...master
+[Unreleased]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.8.1...master
+[8.8.1]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.8.0...v8.8.1
 [8.8.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.7.0...v8.8.0
 [8.7.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.6.1...v8.7.0
 [8.6.1]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.6.0...v8.6.1
