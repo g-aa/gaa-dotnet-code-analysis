@@ -15,7 +15,6 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageVersion>$(Build_Version)</PackageVersion>
     <PackageReleaseNotes>Updating the project</PackageReleaseNotes>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <NoWarn>$(NoWarn);NU5128;NU5104</NoWarn>
     <NoDefaultExcludes>true</NoDefaultExcludes>

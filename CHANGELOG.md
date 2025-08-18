@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 
 ## [Unreleased]
 
+## [8.9.0] - 2025-08-18
+
+### Добавлено
+
+- Добавление `.drone.yml`.
+
 ## [8.8.1] - 2025-06-02
 
 ### Исправлено
@@ -110,7 +116,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/ru/1.0.0/), 
 - Подключен `Microsoft.CodeAnalysis.NetAnalyzers`, версия `6.0.0`.
 - Подключен `StyleCop.Analyzers`, версия `1.2.0-beta.435`.
 
-[Unreleased]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.8.1...master
+[Unreleased]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.9.0...master
+[8.9.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.8.1...v8.9.0
 [8.8.1]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.8.0...v8.8.1
 [8.8.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.7.0...v8.8.0
 [8.7.0]: https://github.com/g-aa/gaa-dotnet-code-analysis/compare/v8.6.1...v8.7.0
