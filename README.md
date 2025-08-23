@@ -1,12 +1,10 @@
-# <p><img src="icon.png" width="64px" height="64px" align="middle"/> GAA dotnet code analysis</p>
+# GAA dotnet code analysis
 
-Набор правил для анализа .Net кода.
+Набор правил для анализа DotNet кода.
 
 ## Перечень технологий
 
 `Microsoft.CodeAnalysis`, `StyleCop.Analyzers.Unstable`.
-
-## [История изменения](CHANGELOG.md)
 
 ## Основная информация о пакете
 
